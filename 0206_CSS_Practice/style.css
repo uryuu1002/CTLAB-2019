@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+  cursor: url('https://icon2.kisspng.com/20180528/ajw/kisspng-mojo-jojo-desktop-wallpaper-high-definition-televi-5b0c0d77784804.9057404815275165354927.jpg'),auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: auto;
+  height: 30%;
+}
+
+h1{
+  color: green;
+ font-family:'Orbitron', sans-serif;
+ width: 80%;
+ font-size: 40px;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #afedad;
+  padding: 10px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #afedad;
+  padding: 10px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #afedad;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  color: green;
+ font-family:'Orbitron', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}

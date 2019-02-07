@@ -1,23 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Charmonman");
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-header a {
- text-decoration: none;
- font-family: "OctemberScript";
-  padding-bottom: 0;
-
-}
-
-section h1{
-color: red;
- font-family: 'Charmonman', cursive;
-}
-
-
-
-#special{
-  color:blue;
-}
-
-.green{
- color:green;
+h1{
+  color: green;
+ font-family:'Orbitron', sans-serif;
+ font-size: 50px;
 }
