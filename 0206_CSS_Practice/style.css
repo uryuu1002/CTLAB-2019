@@ -1,6 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+@media (max-width:1000px){
+  body{
+      background-color:orange;
+  }
+}
+@media (max-width:400px){
+  body{
+      background-color:pink;
+  }
+}
+
+@font-face {
+    font-family: 'powerpuff_girlsregular';
+    src: url('powerpuff_girls_font-webfont.woff2') format('woff2'),
+         url('powerpuff_girls_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-  cursor: url('https://icon2.kisspng.com/20180528/ajw/kisspng-mojo-jojo-desktop-wallpaper-high-definition-televi-5b0c0d77784804.9057404815275165354927.jpg'),auto;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  /* background-image:url( "background.jpg"); */
+  position:relative;
+  width:100%;
+  height:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
 
 a{
@@ -8,44 +35,57 @@ a{
 }
 
 img{
-  width: auto;
-  height: 30%;
+  position:relative;
+  width: 33%;
+  height: auto;
 }
 
 h1{
-  color: green;
+color: MediumSeaGreen;
  font-family:'Orbitron', sans-serif;
  width: 80%;
  font-size: 40px;
 }
 
 .grid-container-1 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: grid;
   grid-template-columns: auto;
   background-color: #afedad;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-container-2 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   background-color: #afedad;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-container-3 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #afedad;
-  padding: 10px;
+  padding: 20px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  color: green;
- font-family:'Orbitron', sans-serif;
-  font-size: 30px;
+  padding: 10px;
+  color: white;
+  font-family: 'powerpuff_girlsregular',sans-serif;
+  font-size: 20px;
   text-align: center;
 }
